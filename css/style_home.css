@@ -1,0 +1,519 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px dotted red;
+}
+
+/*////////////////////////////////*/
+/* Aquí comienza menú navegación*/
+/*////////////////////////////////*/
+
+.top{
+    background-color: #161616;
+    padding: 10px;
+    color: azure;
+    font-size:x-small;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.top li{
+    display: flex;
+    align-items: center;
+}
+
+.logo_pequeño{
+    width: 125px;
+}
+
+
+.mi_cuenta{
+    transition: 0.5s;
+    background-color: #161616 ;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    color: azure;
+    font-size: 12px;
+    border: none;
+}
+
+.mi_cuenta:hover{
+    background-color: #EF7724;
+}
+
+
+.carrito_menu{
+    transition: 0.5s;
+    background-color: #161616 ;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    color: azure;
+    font-size: 12px;
+    border: none;
+}
+
+.carrito_menu:hover{
+    background-color: #EF7724;
+}
+
+
+nav ul li:hover{
+    color: #EF7724;
+}
+
+.navegación{
+    display: flex;
+    align-content: center;
+}
+
+.menu_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 10px;
+}
+
+.menu_nav li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu_nav li button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Barra de navegación y botones*/
+
+.barra_navegacion{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .input_superior{
+    height: 47px;
+    width: 500px;
+    border-radius: 30px;
+} */
+
+.buscador{
+    border: 1px black solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.buscador input{
+    border: none;
+    width: 90%;
+    height: 80%;
+}
+
+.buscador input:focus{
+outline: none;
+}
+
+.buscador img{
+margin-right: 10px;
+}
+
+.boton_buscar{
+    transition: 0.5s;
+    background-color: #DB4D05 ;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 12px;
+    border: none;
+    margin-left: 10px;
+}
+
+.boton_buscar:hover{
+    background-color: #EF7724;
+}
+
+.filtro{
+    transition: 0.5s;
+    background-color: #FFFFFF;
+    height: 35px;
+    width: 120px;
+    border-color: #EF7724;
+    border-radius: 10px;
+    color: #DB4D05;
+    margin-left: 20px;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.filtro:hover{
+    background-color: #EF7724;
+    color: #FFFFFF;
+}
+
+
+/*////////////////////////////*/
+/* Aqui comienza el banner */
+/*//////////////////////////*/
+
+.banner{
+    background-image: url(../assets_buscalibre/banner/imagen_1.jpg);
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: contain;
+    background-position: top;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.descuento{
+    transition: 0.5s;
+    background-color: #DB4D05 ;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 11px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.descuento:hover{
+    background-color: #EF7724;
+}
+
+.titulo1{
+    font-size: 40px;
+    color: white;
+}
+
+.porcentaje{
+    font-size: 100px;
+    color: white;
+}
+
+.subtitulo1{
+    color: white;
+}
+
+/*//////////////////////////////////////*/
+/* Aquí comienza tarjetas de productos */
+/*//////////////////////////////////////*/
+
+.titulo1_card{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.titulo2_card{
+    margin-left: 60px;
+}
+
+.titulo3_card{
+    margin-left: 60px;
+}
+
+.titulo4_card{
+    margin-left: 60px;
+}
+
+.flechas_card{
+    display: flex;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.product_card{
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
+    height: 55vh;
+    /* width: 20vw; */
+    border-radius: 20px;
+}
+.center_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.portada:hover{
+    width: 150px;
+    
+}
+
+.imgpro{
+    width: 50%;
+}
+
+/* .contenedorflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 35px 0 35px;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+
+/* propiedades grill tarjetas*/
+
+
+
+/* Propiedades botones tarjeta*/
+.boton_detalle{
+    transition: 0.5s;
+    background-color: #DB4D05;
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: azure;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.boton_detalle:hover{
+    background-color: #EF7724;
+}
+
+.iconos_card{
+    float: right;
+    margin-top: 25px;
+}
+
+.valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: large;
+    min-height: 10px;
+}
+
+.valores p{
+    text-decoration: line-through;
+    font-weight: 900;
+    margin-top: 5px;
+    min-height: 10px;
+}
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.texto p{
+    font-size: small;
+}
+
+.texto h3{
+    min-height: 50px;
+}
+
+/* Aqui comienza el footer */
+
+
+.iconos_sociales{
+    display: flex;
+    justify-content:center;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.icon_content{
+    display: flex;
+    justify-content:space-between ;
+    width: 250px;
+}
+
+.logo_footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+
+/* Input footer */
+
+.barra_navegacion_2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.buscador_2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 1px black solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+}
+
+.buscador_2 input{
+    border: none;
+    width: 90%;
+    height: 80%;
+    margin-right: 20px;
+}
+
+.buscador_2 input:focus{
+outline: none;
+}
+
+.buscador img{
+margin-right: 10px;
+}
+
+
+.suscribete{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.boton_recibir_ofertas{
+    transition: 0.5s;
+    background-color: #DB4D05 ;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 11px;
+    border: none;
+    margin-left: 10px;
+}
+
+.boton_recibir_ofertas:hover{
+    background-color: #EF7724;
+
+}
+
+.boton_soporte{
+    transition: 0.5s;
+    background-color: #DB4D05 ;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 11px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.boton_soporte:hover{
+    background-color: #EF7724;
+
+}
+
+.necesitas_ayuda{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+
+hr {
+border: 0;
+border-bottom: 1px solid #161616;
+height:0;
+padding-top: 100px;
+margin-bottom: 80px;
+}
+
+/* listas footer */
+
+.lista_uno{
+    display: flex;
+    justify-content: start;
+    margin-left: 8%;
+}
+
+.lista_uno:hover{
+    font-weight: 800;
+
+}
+.lista_uno li{
+    list-style: none;
+}
+
+.lista_dos{
+    display: flex;
+    justify-content: start;
+    margin-right: 5%;
+    
+}
+
+.lista_dos:hover{
+    font-weight: 800;
+
+}
+
+.lista_dos li{
+    list-style: none;   
+}
+
+.descarga_app{
+    margin-bottom: 20px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.footer_final{
+    display: flex;
+    list-style: none;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+}
+
+.bottom_direccion{
+    background-color: #161616;
+    padding: 10px;
+    color: #EF7724;
+    font-size:small;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
